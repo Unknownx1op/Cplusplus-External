@@ -1,2 +1,3 @@
 # Cplusplus-External
-I was going to say the same thing as in the "Csharp-External" project description, but practically, who doesn't know C# (For it to work First you have to choose an empty project <img width="675" height="123" alt="image" src="https://github.com/user-attachments/assets/ce089a7c-38d5-4327-8241-e5ed2debb25a" /> in Visual Studio C++ and then put Release https://github.com/user-attachments/assets/54241ff0-068a-4266-82b5-f1788835c45a
+I was going to say the same thing as in the "Csharp-External" project description, but practically, who doesn't know C# (For it to work First you have to choose an empty project <img width="675" height="123" alt="image" src="https://github.com/user-attachments/assets/ce089a7c-38d5-4327-8241-e5ed2debb25a" /> in Visual Studio C++ and then put Release 
+https://github.com/user-attachments/assets/54241ff0-068a-4266-82b5-f1788835c45a
