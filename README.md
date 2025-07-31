@@ -11,4 +11,4 @@ https://github.com/user-attachments/assets/54241ff0-068a-4266-82b5-f1788835c45a
 https://github.com/user-attachments/assets/bd1f465b-7a5e-4231-b681-5601137d9400
 
 ## then go to Advance and in Character Set instead of what is there put Use Multi-Byte Character Set and then click the Apply button and OK and that's it.
-https://github.com/user-attachments/assets/1f856560-ffb4-4d3f-9e80-658927536297
+https://github.com/user-attachments/assets/1f856560-ffb4-4d3f-9e80-658927536297 
