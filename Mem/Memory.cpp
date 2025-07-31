@@ -47,17 +47,12 @@ uintptr_t MemoryManager::getModuleBaseAddress(const char* moduleName)
     {
         do
         {
-            int size_needed = WideCharToMultiByte(CP_UTF8, 0, currentModule.szModule, -1, NULL, 0, NULL, NULL);
-            char* narrowModuleName = new char[size_needed];
-            WideCharToMultiByte(CP_UTF8, 0, currentModule.szModule, -1, narrowModuleName, size_needed, NULL, NULL);
-
-            if (strcmp(narrowModuleName, moduleName) == 0)
+            // Direct string comparison since both are narrow strings
+            if (strcmp(currentModule.szModule, moduleName) == 0)
             {
-                delete[] narrowModuleName;
                 CloseHandle(hSnap);
                 return (uintptr_t)currentModule.modBaseAddr;
             }
-            delete[] narrowModuleName;
         } while (Module32Next(hSnap, &currentModule));
     }
     CloseHandle(hSnap);
