@@ -47,7 +47,6 @@ uintptr_t MemoryManager::getModuleBaseAddress(const char* moduleName)
     {
         do
         {
-            // Direct string comparison since both are narrow strings
             if (strcmp(currentModule.szModule, moduleName) == 0)
             {
                 CloseHandle(hSnap);
