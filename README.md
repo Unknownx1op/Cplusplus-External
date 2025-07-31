@@ -1,3 +1,7 @@
 # Cplusplus-External
-I was going to say the same thing as in the "Csharp-External" project description, but practically, who doesn't know C# (For it to work First you have to choose an empty project <img width="675" height="123" alt="image" src="https://github.com/user-attachments/assets/ce089a7c-38d5-4327-8241-e5ed2debb25a" /> in Visual Studio C++ and then put Release 
-https://github.com/user-attachments/assets/54241ff0-068a-4266-82b5-f1788835c45a
+I was going to say the same thing as in the "Csharp-External" project description, but practically, who doesn't know C#?
+<img width="675" height="124" alt="Screenshot 2025-07-30 190605" src="https://github.com/user-attachments/assets/6ea84416-e479-4248-9c4d-4d40f3d601f8" />
+
+For it to work First you have to choose an empty project in Visual Studio C++ and then put Release instead of Debug and then go to properties and change C++ Language Standard from C++ 14 to Preview - Features from
+
+ the Latest C++ Working Draft (/std:c++latest) then go to advance and in Character Set instead of what is there put Use Multi-Byte Character Set and then click the Apply button and OK and that's it.
