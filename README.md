@@ -7,6 +7,7 @@
 ## and then put Release instead of Debug
 https://github.com/user-attachments/assets/54241ff0-068a-4266-82b5-f1788835c45a
 
- and then go to properties and change C++ Language Standard from C++ 14 to Preview - Features from
+## and then go to properties and change C++ Language Standard from C++ 14 to Preview - Features from
+https://github.com/user-attachments/assets/bd1f465b-7a5e-4231-b681-5601137d9400
 
  the Latest C++ Working Draft (/std:c++latest) then go to advance and in Character Set instead of what is there put Use Multi-Byte Character Set and then click the Apply button and OK and that's it.
